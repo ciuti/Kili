@@ -1,0 +1,251 @@
+/* Smooth scroll css*/
+html { scroll-behavior: smooth; } 
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+.logo {
+    width: 200px;
+}
+.navlink{
+    color: black;
+    font-weight: 900;
+}
+@media only screen and (min-width: 601px) {
+    .navbar-lg-screen {
+      padding-left:50px;
+    }
+  }
+.navlink:hover{
+    color:#e78337;
+}
+.invisible{
+    visibility: hidden;
+}
+#navbarr{
+    background-color: #86484f;
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    z-index: 1000;
+    box-shadow: 1px 1px 4px #5d282e;
+}
+.dropdown-menu{
+    background-color:#86484f ;
+}
+.donate{
+    position:absolute;
+     right: 25em;
+}    
+.donate:hover{
+    color:white !important;
+}
+#ForeContent {
+    background-color: #86484f;
+    color:white;
+    
+}
+#ForeImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.ForeImg-1{
+    width:100vw !important;
+    height:auto;
+}
+#Heading5 {
+    font-size: 1.5em;
+    color: hsla(0,0%,100%,.75);
+}
+.card-title-impact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 140%;
+    /* or 50px */
+    text-align: center;
+    letter-spacing: 0.04em;
+  
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #c9c5db;
+  
+}
+.line {
+    height: 1px;
+    clear: both;
+    border-top: 1px dotted rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    opacity: 1;
+    padding: 40px;
+    background-color: transparent;
+}
+#Heading2 {
+    font-weight: bolder;
+    font-size: 38px;
+    color: black !important;
+    padding-top:100px!important;
+}
+body{
+    background-color: whitesmoke;
+}
+/* sticky Left headings css */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top:50px;
+}
+.navbar-fixed-top.scrolled {
+    background-color: whitesmoke !important;
+    transition: background-color 200ms linear;
+    /* box-shadow: 1px 1px 8px #888888; */
+  }
+  .btn-warning {
+    background-color: #e78337 !important;
+  }
+  .newevents{
+      color:white;
+  }
+  .newevents:hover{
+    color:#0b07ec;
+  }
+  .about-icon{
+      width:100px;
+      height:auto;
+      align-self: center !important
+  }
+  .about-heading{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .activities-img{
+      width:100%;
+      height:auto;
+      object-fit: cover;
+  }
+  .heading-footer {
+    font-size: 1.1em;
+    margin-bottom: .9em;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+}
+.list-footer {
+    list-style-type: none;
+}
+
+.list-footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.list-footer a:hover {
+    color:orange;
+}
+
+.heading-footer {
+    font-size: 1.1em;
+    margin-bottom: .9em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.sub_footer-col {
+    border-right: #3a3a3a dotted 2px;
+}
+
+.footer-location {
+    border-top: #3a3a3a dotted 2px;
+}
+
+.sub_footer {
+    background: #86484e;
+}
+
+.footer {
+    background: #86484e;
+}
+#maps {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+#maps:hover {
+    color: orange;
+}
+.footerdescript{
+    color:black; 
+}
+.icons {
+    color: whitesmoke;
+}
+
+.icons:hover {
+    color: orange;
+}
+/* #Heading2 {
+    font-weight: bolder;
+    font-size: 38px;
+    color: white !important;
+    padding-top:70px!important;
+} */
+#subheading3 {
+    font-size: 21px;
+    color: white !important;
+}
+.bynumbers{
+    color:#5781c3;
+    margin-bottom: 0px !important;
+}
+@media only screen and (max-width: 600px) {
+    .bynumbers{
+        padding-left:30px;
+    }
+    #Heading2 {
+        padding-top:0px!important;
+    }
+}
+.team-profile {
+    width: 100%;
+}
+#teamNames{
+    color: black;
+}
+#teamRole{
+    color: black;
+}
+.btn-people {
+    position: absolute;
+    top: 12%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: .95em;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 40px;
+}
+.info-span {
+    /* color: rgb(121, 28, 23); */
+    color: rgb(219, 197, 197);
+    width: 50px;
+    height: 50px;
+    font-size: large;
+}
+.team-image-home {
+    padding: 2px;
+}
+.img-hover:hover .image {
+    opacity: 1;
+}
+
+.img-hover:hover .info-span {
+    /* color: #dc3545; */
+    color: rgb(138, 32, 26);
+}
+
+
