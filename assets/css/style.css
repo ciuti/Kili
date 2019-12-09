@@ -231,14 +231,19 @@ body{
 }
 .teamNames{
     color: black;
+    margin-bottom: 0px !important;
 }
 
 
 .teamRole{
-    color: black;
+    color: #e78538;
 }
 @media only screen and (max-width: 600px){
-    .teamNames .teamRole{
+    .teamNames{
+        font-size: 13px !important;
+        
+    }
+    .teamRole{
         font-size: 13px !important;
     }
 }
